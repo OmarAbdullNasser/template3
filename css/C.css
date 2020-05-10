@@ -1,0 +1,515 @@
+/* Strat Main Rules */
+body{
+    background-color: white;
+        height: 2000px;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+
+}
+.clearfix{clear:both}
+/* End Main Rules */
+
+/*Strat header*/
+
+.header .Slider{
+    background-image:url('../image/3.jpg');
+    background-size: cover;
+    height: 600px;
+    
+}
+.header .Slider .intro{
+    color:#FFF;
+    padding-top:200px;
+    text-align: center;
+}
+
+.header .Slider .intro h2{ 
+    margin: 0 auto; 
+    border-top: 3px solid #FFF;
+    border-bottom: 3px solid #FFF;
+    font-size: 70px;
+    width: 600px;
+    padding: 5px 0;
+    background-color: rgba(255,255,255, 0.3);
+    
+}
+.header .Slider .intro button{
+    background:  none;
+    margin-top: 100px;
+    padding: 20px;
+    font-size: 20px;
+    color:darkred;
+    font-weight: bold;
+    
+}
+.header .navbar{
+    background-color: #252F31;
+    color: #FFF;
+    overflow: hidden;
+}
+.header .navbar h2{float: left; text-transform: uppercase}
+
+.header .navbar h2 span{color:#2ecc71}
+
+.header .navbar ul {
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right;
+}
+.header .navbar ul li{float: left;padding: 10px;}
+.header .navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+.header .navbar ul li a:hover,.header .navbar ul li.active a{
+        color: #2ecc71;
+
+}
+
+/*End header*/
+
+/*Strat featrue*/
+.feature{
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.feature .feat{
+    float: left;
+    width: 33.33333333%;
+    height: 150px;
+     
+        
+}
+
+.feature .feat h2{text-transform: uppercase; color: #444;}
+
+.feature .feat p{
+    color: #888;
+    text-align: justify;
+    padding: 0 10px;
+    
+}
+
+/*End featrue*/
+
+
+/*Strat About me*/
+
+.About-me{
+    background-color: #F2F2F2;
+    overflow: hidden;
+}
+.About-me .image{
+    float: left;
+    width: 40%;
+    
+    
+}
+.About-me .image img {
+    width: 120%;
+    
+}
+.About-me .info{
+    float: left;
+     width: 60%;
+}
+
+.About-me .info h2{
+    margin: 20px 0 20px 117px;
+    color: #555;
+}
+.About-me .info > p{
+     margin: 0 0 20px 117px;
+    
+}
+.About-me .info > p:last-of-type{
+    margin-top:25px;
+}
+
+.About-me .info  p{
+     line-height: 1.7;
+     color: #666;
+}
+
+.About-me .info .hobbies {
+    margin: 20px;
+    overflow: hidden;
+    margin: 25px 0 0 117px;
+    
+}
+
+.About-me .info .hobbies h3{color: #555}
+
+.About-me .info .hobbies .content
+{
+    float: left;
+    width: 50%;
+    min-height: 100px;
+    overflow: hidden;
+}
+
+.About-me .info .hobbies .content .icon{
+    float: left;
+    width: 14%;
+    margin-right: 3%
+    
+}
+.About-me .info .hobbies .content .icon img{max-width: 100%;
+margin: 10px 20px 0 0}
+
+.About-me .info .hobbies .content .text{
+    float: left;
+    width: 83%;
+   
+   
+}
+
+
+/*End About me*/
+
+/*strat myskills*/
+.Myskill{
+    padding-top:30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    
+}
+.Myskill .skill,.Myskill .pho{
+    width: 50%;
+    float: left;
+}
+
+.Myskill .skill h2{
+    margin: 20px 0 20px 2px;
+    color: #555;
+}
+.Myskill .skill p{
+     margin: 0 0 20px 2px;
+    color: #555;
+    font-weight: bold;
+    line-height: 1.6;
+    
+}
+.Myskill .skill p:last-of-type{
+    margin-top:25px;
+}
+
+.Myskill .skill button{
+    background: none;
+    color:#2ecc71;
+    border: 3px solid #2ecc71;
+    padding: 10px 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.Myskill .pho .technique{margin-left: 50px}
+.Myskill .pho .technique h3{
+    color: #555;
+    text-transform: uppercase;
+}
+.Myskill .pho .technique div{
+    background-color: #F2F2F2;
+    height: 25px;
+}
+.Myskill .pho .technique div span{
+     background-color: #2dcc70;
+    display: block;
+    height: 25px;
+    text-align: right;
+    font-weight: bold;
+    color: #fff;
+    line-height: 25px;
+}
+
+/*End myskills*/
+
+/*strat Resum*/
+.Resum{
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-color: #F2F2F2;
+    text-align: center;
+}
+.Resum h2{text-transform: uppercase; text-align: center;color: #555; }
+.Resum button{
+    margin-top:25px;
+}
+
+.Resum p{
+     color: #555;
+     font-weight: bold;
+    line-height: 1.6;
+    margin-top: 30px;
+    
+}
+
+/*End Resum*/
+
+/*Strat Edution*/
+Edution{
+    padding-top:30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    overflow: hidden;
+    
+}
+
+
+
+.Edution .main{
+    width: 50%;
+    padding-right: 5%;
+    float: left;
+}
+
+.Edution .exp{
+    width: 45%;
+    float: left;
+}
+
+
+Edution .main h2{
+    margin: 20px 0 20px 2px;
+    color: #555;
+}
+.Edution .main p{
+     margin: 0 0 20px 2px;
+    color: #555;
+    font-weight: bold;
+    line-height: 1.6;
+    
+}
+.Edution .main p:last-of-type{
+    margin-top:30px;
+  
+}
+
+.Edution .exp span{
+    color: #555;
+   display: block;
+     font-size: 20px;
+    
+}
+.Edution .exp span:last-of-type{
+      display:inline-block;
+    background-color: #2ecc71;
+    color: #fff;
+    font-size: 15px;
+    margin-top:15px;
+    margin-bottom:25px;
+    padding: 4px 10px;
+}
+
+    .Edution .exp h3{
+    margin-top: 71px;
+    color: #555;
+}
+
+.Edution.exp hr{margin: 20px 0px;background-color:#999;height: 1px;border: 0}
+.Edution .exp p{
+     margin: 0 0 20px 2px;
+    color: #777;
+    font-weight: bold;
+    line-height: 1.6;
+    
+}
+.Edution .exp p:last-of-type{
+    margin-bottom: 67px;
+}
+
+
+/*End Edution*/
+
+/*strat testy*/
+.testy{
+    overflow: hidden;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #F2F2F2;
+    text-align: center;
+     
+}
+.testy q{
+   line-height:1.8px;
+    color: #777;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+.testy h3{
+    color: #666;
+    text-transform: uppercase;
+    margin-top: 57px;
+}
+.testy ul  {
+    list-style: none;
+    padding-left: 0;
+    margin-top:25px;
+    
+}
+.testy ul li {
+        width: 20px;
+        height: 20px;
+        border: 3px solid #2ecc71;
+       text-align: center;
+    display: inline-block;
+    cursor: pointer;
+
+}
+.testy ul li.active,.testy ul li:hover{background-color:#2ecc71;}
+
+/*End testy*/
+
+
+/*strat Portfolio*/
+Portfolio{
+    padding-top:50px;
+    padding-bottom: 70px;
+    text-align: center;  
+}
+.Portfolio h2{
+     color: #777;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.Portfolio p{
+     color: #666;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 60px;
+    font-weight: bold;
+    
+}
+
+.Portfolio .our-work{
+    overflow: hidden;
+}
+.Portfolio .our-work >div{
+  float: left;
+    margin-bottom: 30px;
+    width: 33.333333333%
+}
+
+.Portfolio .our-work >div img{width: 92%;
+    margin: 10px;
+    border: 8px solid black;
+    padding: :3px;
+}
+
+/* End Portfolio*/
+
+
+/*Strat Contact me*/
+
+.contact-me{
+    background-color: #252F31;
+    overflow: hidden;
+    padding-bottom: 70px;
+    padding-top: 50px;
+}
+.contact-me h2{
+    color:#FFF;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+.contact-me p{
+    color:#6A6E71;
+    line-height: 40px;
+}
+.contact-me .info span{
+    color: #fff;
+}
+
+.contact-me .info,contact-me .form {
+    width: 50%;
+    float: left;
+}
+
+
+
+.contact-me .form h3{
+    color: #999;
+    text-transform: uppercase;
+}
+.contact-me .form button{
+    display: block;
+    margin-top: 20px;
+    background-color: #000000;
+    color: #fff;
+    border: 1px solid #000;
+    padding: 20px;
+    width: 16%;
+    margin-left: 585px;
+}
+
+.contact-me .form input[type="text"]{
+    background-color: #4b5557;
+    border:0;
+    width: 47%;
+    color: #fff;
+    height: 50px;
+}
+.contact-me .form textarea{
+      background-color: #4b5557;
+    border:0;
+    width: 47%;
+    color: #fff;
+    height: 300px;
+}
+
+
+/*End contact me*/
+
+
+/* strat footer*/
+.footer{
+    background-color: #191E22;
+    color:#6A6E71;
+    padding: 20px 0;
+    text-align: center;
+    overflow: hidden
+}
+.footer ul{
+  list-style: none;
+    padding-left: 0;
+}
+.footer ul li{
+    display: inline-block;
+}
+
+.footer ul li img{
+    width: 25px;
+    margin-left: 5px;
+}
+
+/*End footer*/
+
+
+/*start my framwork*/
+
+.my-button{
+    background: none;
+    color:#2ecc71;
+    border: 3px solid #2ecc71;
+    padding: 10px 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+
+
+/*end my framwork*/
+
